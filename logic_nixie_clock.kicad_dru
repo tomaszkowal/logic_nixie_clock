@@ -1,0 +1,7 @@
+(version 1)
+(rule MAINS
+   (constraint clearance (min "3mm"))
+   (condition "A.NetClass == 'Mains' && B.NetClass == 'Mains'"))
+(rule MAINS_to_noname
+   (constraint clearance (min "3mm"))
+   (condition "A.NetClass == 'Mains' && B.Net == '<no net>'"))
