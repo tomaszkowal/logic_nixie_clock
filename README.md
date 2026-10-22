@@ -1,14 +1,26 @@
+HEAD
 Do you want to build a nixie clock, but you are tired of code writing being associated with AI vibe coding? Or perhaps you never like to write code, just like me? Or you just want to do things differently and want to use some half a century old CMOS technology?
 Then perhaps this clock project is just for you!
 
 Key project ideas:
 1. Is a clock
 2. Uses nixie tubes as display, IN-12, ZM118x or other rectangular front view with same pinout
-3. Uses 4000 series integrated circuits exclusively for all the counting and logic 
-4. Uses mains voltage for both power and clocking. Two back to back transformers are used to provide low and high voltages isolated from mains.
-5. Has supercapacitor backup for logic power and a 32 kHz quartz oscillator as a backup clock, with automatic switchover, providing best of two worlds (mains long term stability and availability of clock source and power even during blackout). The display remains off during the backup operation.
-6. Physical implementation does use SMD components mostly, but limited to only easy to hand solder packages - SOIC and 0805 - to make it still solderable by people with little to no experience
-7. PCB design incorporates unorthodox methods - namely, transformers and HV cap soldered on a standoff. This is necessary to keep everything on one PCB small, but will require some guideline - or even pictures (to be added later) - to understand how to properly assemble it
+3. No programmable ICs
+4. ICs must be from 4000 series logic
+5. Other semiconductors allowed are diodes and transistors
+6. Uses mains frequency for base clock source
+7. Has a backup voltage supply which should last about a day
+8. Has a backup 32768 Hz crystal oscillator with automatic clock switchover in event of mains power loss
+9. Supply provided by two back to back transformers, both low and high voltages isolated from mains
+10. Support for 50 and 60 Hz mains
+11. Support for 12hr and 24hr standards
+12. AM/PM indication via separate neon bulbs or PM indication using decimal point of tens of hours tube
+13. 1 Hz, 50% duty cycle blinking colons or constantly lit colons, support for separate neons or decimal points in tubes
+14. Uses SOIC, SOT-23 and 0805 packages whenever possible - SMD, but easy to solder
+15. Hacky technicques of mounting components* permitted
+*for example, soldering a capacitor with 1-2 mm standoff to avoid contact with another THT pad 
+
+
 
 Project status (as of 22.10.2026): rev 1.0 was manufactured, few minor issues were spotted. Rev 1.1 is being manufactured right now. Once rev 1.1 passes electrical testing, a 3D printed case will be designed. Files for the case will be added to the project repository. 
 After that, a short guide on soldering and assembling the clock will be created. A broader and less chaotic feature description will be provided too. 
@@ -46,3 +58,4 @@ Don't like SMD? All of parts used exist in THT variants!
 You can also go the other way around and use TSSOP ICs and smaller passive packages. You can change socket type. You can move this to 7400 series logic. You can change whatever you don't like about this project! 
 
 This project is proudly 0% AI.
+
