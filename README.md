@@ -3,14 +3,14 @@ Then perhaps this clock project is just for you!
 
 Key project ideas:
 1. Is a clock
-2. Uses nixie tubes as display, IN-12, ZM118x or other rectangular front view with same pinout
+2. Uses nixie tubes as display, IN-12, ZM118x or other rectangular top view with same pinout
 3. No programmable ICs
 4. ICs must be from 4000 series logic
 5. Other semiconductors allowed are diodes and transistors
 6. Uses mains frequency for base clock source
-7. Has a backup voltage supply which should last about a day
-8. Has a backup 32768 Hz crystal oscillator with automatic clock switchover in event of mains power loss
-9. Supply provided by two back to back transformers, both low and high voltages isolated from mains
+7. Supply provided by two back to back transformers, both low and high voltages isolated from mains
+8. Has a backup voltage supply which should last about a day
+9. Has a backup 32768 Hz crystal oscillator with automatic clock switchover in event of mains power loss 
 10. Support for 50 and 60 Hz mains
 11. Support for 12hr and 24hr standards
 12. AM/PM indication via separate neon bulbs or PM indication using decimal point of tens of hours tube
