@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 45,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -113,32 +113,7 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": [
-      {
-        "name": "logic_nixie_clock.kicad_pcb",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1056
-        }
-      },
-      {
-        "name": "logic_nixie_clock.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": false,
-          "pos_x": 953,
-          "pos_y": 0,
-          "size_x": 974,
-          "size_y": 1047
-        }
-      }
-    ]
+    "files": []
   },
   "schematic": {
     "selection_filter": {
