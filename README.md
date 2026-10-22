@@ -1,4 +1,3 @@
-HEAD
 Do you want to build a nixie clock, but you are tired of code writing being associated with AI vibe coding? Or perhaps you never like to write code, just like me? Or you just want to do things differently and want to use some half a century old CMOS technology?
 Then perhaps this clock project is just for you!
 
